@@ -37,7 +37,7 @@ for i in range(n):
     row = list(map(int, input(f"Строка {i + 1}: ").split()))
     adj_matrix.append(row)
 
-print("\nТаблица смежности:")
+print("Таблица смежности:")
 for row in adj_matrix:
     print(row)
 
